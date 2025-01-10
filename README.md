@@ -22,7 +22,7 @@ The cleaned and analyzed dataset serves as a robust foundation for further analy
 
 ## Tools and Technologies  
 - **Programming Language**: Python  
-- **Libraries Used**: Pandas, NumPy, Matplotlib, Seaborn  
+- **Libraries Used**: Pandas, Matplotlib, Seaborn  
 
 ## Project Workflow  
 1. **Dataset Inspection**:  
