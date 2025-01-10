@@ -1,48 +1,50 @@
-# IMDB Top 1000 Movies: Data Cleaning and Exploratory Data Analysis  
+# IMDB Top 1000 Movies Analysis
 
-## Project Overview  
-This repository contains the data cleaning and exploratory data analysis (EDA) of the IMDB Top 1000 Movies dataset. The goal of this project was to preprocess the raw data, ensure its quality, and extract meaningful insights from it. The analysis focuses on trends in movie ratings, genres, revenue distributions, and correlations between key metrics.  
+## Overview
 
-The cleaned and analyzed dataset serves as a robust foundation for further analysis, machine learning applications, or business insights.  
+This project explores the IMDB Top 1000 movies dataset through an in-depth Exploratory Data Analysis (EDA). The goal is to uncover meaningful insights and trends in movie ratings, revenue, and industry contributions from directors, actors, and genres.
 
-## Features  
-- Comprehensive data cleaning to handle missing data, normalize columns, and ensure data quality.  
-- Advanced filtering and visualization techniques to explore trends in movie data.  
-- Detailed analysis of genre popularity, audience ratings, and revenue distributions.  
+## Highlights
 
-## Key Objectives  
-1. **Data Cleaning**:  
-   - Inspect and handle missing or inconsistent values.  
-   - Normalize columns for uniformity in formatting.  
-   - Ensure data integrity and reliability for analysis.  
-2. **Exploratory Data Analysis (EDA)**:  
-   - Visualize data distributions and correlations.  
-   - Analyze trends in movie ratings, genres, and box office performance.  
-   - Highlight patterns and anomalies in the dataset.  
+- **Data Cleaning**: Organized the dataset by handling missing values, reformatting columns, and removing irrelevant data.
+- **Visual Analysis**: Utilized various graphs to present findings, such as the distribution of certifications, trends in runtime, and correlations between attributes.
+- **Key Insights**:
+  - Popular certifications and genres.
+  - Movies and directors with the highest box office revenue.
+  - Trends in runtime over decades.
+  - Correlation between ratings, votes, runtime, and gross revenue.
 
-## Tools and Technologies  
-- **Programming Language**: Python  
-- **Libraries Used**: Pandas, Matplotlib, Seaborn  
+## Dataset Summary
 
-## Project Workflow  
-1. **Dataset Inspection**:  
-   - Explored the raw dataset to understand its structure and identify missing or inconsistent data.  
-2. **Data Cleaning**:  
-   - Addressed null values and standardized numerical and categorical data.  
-   - Removed duplicates and irrelevant columns for a streamlined dataset.  
-3. **Exploratory Data Analysis**:  
-   - Visualized relationships between audience ratings, critics’ scores, and revenue.  
-   - Examined trends in genre popularity over time.  
-   - Correlated key metrics to uncover insights into critical and commercial success factors.  
+The dataset contains information on 1000 movies, including:
+- Movie title, release year, genre, runtime, and IMDB rating.
+- Leading actors, director, number of votes, and gross revenue.
+- Additional metadata such as certification and Metascore.
 
-## Key Insights  
-- Movies with high audience ratings tend to perform better at the box office.  
-- Genres like drama and action consistently dominate both critical acclaim and commercial success.  
-- Visualization of revenue distribution reveals a long tail, with a few movies generating disproportionately high earnings.  
+## Key Findings
 
-## Repository Structure  
-- **data/**: Contains the cleaned dataset.  
-- **notebooks/**: Jupyter notebooks documenting the data cleaning and EDA process.  
-- **images/**: Visualizations generated during EDA.  
-- **README.md**: Detailed documentation of the project.  
-- **requirements.txt**: Dependencies for the project.  
+- **Highest Grossing Movie**: *Star Wars: Episode VII - The Force Awakens* leads with $936,662,225 in box office revenue.
+- **Top Directors**:
+  - Alfred Hitchcock directed the most movies (14 in total).
+  - Steven Spielberg grossed the highest revenue at $2.47 billion.
+- **Top Actors**:
+  - Robert De Niro starred in the most movies (17 appearances).
+  - Tom Hanks generated the highest revenue with $2.49 billion.
+- **Genre Analysis**:
+  - Drama dominates as the most common genre.
+  - Action and crime genres tend to gross higher revenues.
+- **Runtime Trends**: Average movie runtime has gradually increased over the decades.
+- **Certification Distribution**: U/A certification is the most common in the dataset.
+
+## Visualizations
+
+The analysis includes:
+- **Bar Graphs**: Showcasing top grossing movies, directors, and actors.
+- **Line Graphs**: Highlighting trends in runtime over the years.
+- **Heatmaps**: Exploring correlations between variables like ratings, votes, and revenue.
+
+## Future Directions
+
+- Study the impact of awards and critical reception on box office revenue.
+- Incorporate inflation-adjusted revenue for better financial analysis.
+- Expand the dataset to include movies beyond the IMDB Top 1000.
